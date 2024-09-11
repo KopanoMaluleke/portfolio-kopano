@@ -1,0 +1,98 @@
+/* Base colors */
+:root {
+    --primary-color: #0c7a6d;
+    --secondary-color: #010f19;
+    --accent-color: #f4c50f;
+    --highlight-color: #FF885B;
+    --background-color: #FFE5CF;
+    --text-color: #33372C;
+}
+
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: var(--background-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/* Project Cards */
+.project-card {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover {
+    border: 2px solid var(--highlight-color);
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--highlight-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+
